@@ -7,14 +7,14 @@ html {
   }
 
   #input-message {
-    color: #52504e;
+    color: #ffffff;
   }
 
   .bpw-new-messages-indicator{
     background-color: #19d682;
     color: #ffffff;
   }
-
+  
   .bpw-header-container {
     margin: 10px 10px 0px 10px;
     background: #026339;
@@ -41,7 +41,7 @@ html {
   .bpw-header-subtitle {
     color: #ffffff;
   }
-
+  
   .bpw-layout {
     width: 360px !important;
     border: 1px;
@@ -71,11 +71,11 @@ html {
   }
 
   #input-message::placeholder {
-    color: #52504e;
+    color: #ffffff; 
   }
 
   .bpw-keyboard-single-choice{
-    background-color: #d3ffeb;
+    background-color: #009351;
     border: none;
   }
   .bpw-button, .bpw-button-alt{
@@ -98,7 +98,7 @@ html {
 
 
   .bpw-chat-container {
-    background-color: #d3ffeb;
+    background-color: #009351;
   }
 
   .bpw-from-bot .bpw-chat-bubble .bpw-chat-bubble-content {
@@ -112,23 +112,24 @@ html {
   }
 
   .bpw-composer {
-    background-color: #d3ffeb;
+    background-color: #009351;
     border-top: 1px solid #19d682;
   }
 
   .bpw-chat-container::-webkit-scrollbar {
     width: 10px;
-    background-color: #d3ffeb;
+    background-color: #009351;
   }
 
   .bpw-chat-container::-webkit-scrollbar-thumb {
-    background-color: #d3ffeb;
+    background-color: #009351;
   }
 
   .bpw-bot-avatar img,
   .bpw-bot-avatar svg {
     background: #a9a2ff;
     background-size: cover;
+    border: 3px solid #ffffff;
   }
 
   ::-webkit-scrollbar{
@@ -140,7 +141,7 @@ html {
   }
 
   ::-webkit-scrollbar-thumb{
-    background-color:#d3ffeb;
+    background-color:#009351;
     border-radius:1rem;
     border: 0.5rem solid transparent;
 
@@ -158,7 +159,7 @@ html {
 
   .bpw-chat-container {
     scrollbar-width: thin;
-    scrollbar-color: #19d682 #d3ffeb;
+    scrollbar-color: #19d682 #009351;
     border: none;
   }
 
@@ -173,7 +174,7 @@ html {
   }
 
   .bpw-chat-container::-moz-scrollbar-thumb {
-    background-color:#d3ffeb;
+    background-color:#009351;
     border:none;
   }
 
@@ -181,7 +182,7 @@ html {
     text-align: center;
     padding: 10px;
     color: #ffffff;
-    background:  #d3ffeb;
+    background:  #009351;
     font-size: 16px;
     border-top: none;
     border-bottom-right-radius: 25px;
